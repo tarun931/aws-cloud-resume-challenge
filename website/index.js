@@ -56,12 +56,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// const counter = document.querySelector(".counter-number");
+// async function updateCounter() {
+//     let response = await fetch(
+//         "https://dy7bz54wxwgkwpjzilgjdrtvwi0rgxfl.lambda-url.ap-southeast-2.on.aws/"
+//     );
+//     let data = await response.json();
+//     counter.innerHTML = `👀 Views: ${data}`;
+// }
+// updateCounter();
 const counter = document.querySelector(".counter-number");
 async function updateCounter() {
     let response = await fetch(
         "https://dy7bz54wxwgkwpjzilgjdrtvwi0rgxfl.lambda-url.ap-southeast-2.on.aws/"
     );
     let data = await response.json();
-    counter.innerHTML = `👀 Views: ${data}`;
+    counter.innerHTML = `👀 Views: ${data.views}`;
 }
 updateCounter();
+
