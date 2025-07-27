@@ -71,6 +71,7 @@ async function updateCounter() {
         "https://dy7bz54wxwgkwpjzilgjdrtvwi0rgxfl.lambda-url.ap-southeast-2.on.aws/"
     );
     let data = await response.json();
+    console.log("Fetched data:", data);
     counter.innerHTML = `👀 Views: ${data.views}`;
 }
 updateCounter();
