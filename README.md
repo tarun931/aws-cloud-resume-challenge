@@ -1,1 +1,1 @@
-![Diagram](Resume-Challege.png)
+![Diagram](Resume-Challenge.png)
