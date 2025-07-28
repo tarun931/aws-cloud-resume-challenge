@@ -9,7 +9,7 @@ This is my attempt at cloud resume challenge in AWS. What is Cloud Resume Challe
 
 Services Used:
 
-S3
+S3 
 AWS CloudFront
 AWS Lambda
 Dynamo DB
