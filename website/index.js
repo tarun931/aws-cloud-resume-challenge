@@ -27,7 +27,7 @@ function toggle_onclick($win, $navbar, width) {
 var typed = new Typed('#typed', {
     strings: [
         'Competitive Programmer',
-        'AWS and Data Science enthusiast',
+        'CLoud and Data Science enthusiast',
         'Data Science Student'
     ],
     typeSpeed: 50,
@@ -38,7 +38,7 @@ var typed = new Typed('#typed', {
 var typed_2 = new Typed('#typed_2', {
     strings: [
         'Competitive Programmer',
-        'AWS and Data Science enthusiast',
+        'Cloud and Data Science enthusiast',
         'Data Science Student'
     ],
     typeSpeed: 50,
